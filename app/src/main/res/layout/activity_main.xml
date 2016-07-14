@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.softheaven.sunjang_hangle.StartMenu">
+
+    <ImageView
+        android:id="@+id/startbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="matrix"
+        android:src="@drawable/imgstartbg" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/waveScroll1"
+        android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/startwave1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:scaleType="center"
+            android:src="@drawable/imgstartwave1" />
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/waveScroll2"
+        android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/startwave2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:scaleType="center"
+            android:src="@drawable/imgstartwave2" />
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/waveScroll3"
+    android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/startwave3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:scaleType="center"
+            android:src="@drawable/imgstartwave3" />
+    </HorizontalScrollView>
+
+
+    <ImageView
+        android:id="@+id/startship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgstartship" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/waveScroll4"
+        android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/startwave4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:scaleType="center"
+            android:src="@drawable/imgstartwave4" />
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/waveScroll5"
+        android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/startwave5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:scaleType="center"
+            android:src="@drawable/imgstartwave5" />
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/startcaptain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="130dp"
+        android:scaleType="matrix"
+        android:src="@drawable/imgstartcaptain" />
+
+    <ImageButton
+        android:id="@+id/startbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:background="#00000000"
+        android:onClick="onStartBtnClick"
+        android:src="@drawable/imgstartbtn" />
+
+
+</FrameLayout>

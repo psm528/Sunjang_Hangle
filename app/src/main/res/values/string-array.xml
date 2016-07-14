@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nounvocaHan">
+        <item>원피스</item>
+        <item>담배</item>
+        <item>빨간색</item>
+    </string-array>
+
+    <string-array name="nounvocaEng">
+        <item>one-piece</item>
+        <item>cigarette</item>
+        <item>red</item>
+    </string-array>
+
+    <string-array name="nounvocaPron">
+        <item>[wonpiseu]</item>
+        <item>[dambae]</item>
+        <item>[ppalgansaek]</item>
+    </string-array>
+
+    <string-array name="nounexampleHan1">
+        <item>원피스가 너에게 잘 어울린다</item>
+        <item>방에 연기가 가득했다</item>
+        <item>당신은 빨간색이 잘 어울려요</item>
+    </string-array>
+
+    <string-array name="nounexampleHan2">
+        <item>그녀는 원피스를 입고 있었다</item>
+        <item>담뱃값이 모두 올랐다</item>
+        <item>그의 우산은 크고 빨간색이에요</item>
+    </string-array>
+
+    <string-array name="nounexampleEng1">
+        <item>You look great in the one-piece</item>
+        <item>The room was full of cigarette smoke</item>
+        <item>You look great in red</item>
+    </string-array>
+
+    <string-array name="nounexampleEng2">
+        <item>She was wearing a one-piece</item>
+        <item>Cigarette prices have all gone up</item>
+        <item>His umbrella is big and red</item>
+    </string-array>
+
+    <string-array name="nounexamplePron1">
+        <item>[Wonpiseuga neoege jal eoullinda]</item>
+        <item>[Bange dambae yeongiga gadeukaetda]</item>
+        <item>[Dangsineun ppalgansaegi jal eoullyeoyo]</item>
+    </string-array>
+
+    <string-array name="nounexamplePron2">
+        <item>[Geunyeoneun wonpiseureul ipgo isseotda]</item>
+        <item>[Dambaetgapsi modu ollatda]</item>
+        <item>[Geuui usaneun keugo ppalgansaegieyo]</item>
+    </string-array>
+
+    <integer-array name="nounimage">
+        <item>@drawable/imgnoun1day1</item>
+        <item>@drawable/imgnoun1day2</item>
+        <item>@drawable/imgnoun1day3</item>
+    </integer-array>
+
+
+</resources>

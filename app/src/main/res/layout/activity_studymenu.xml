@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/studymenubg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/imgstudymenubg"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/studymenunoum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/imgstudymenunoun"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center|top"
+        android:onClick="onCountryClick"/>
+
+    <ImageButton
+        android:id="@+id/studymenuadverb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/imgstudymenuadverb"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center|right"
+        android:onClick="onCountryClick"/>
+
+    <ImageButton
+        android:id="@+id/studymenuadjective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/imgstudymenuadjec"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="bottom|left"
+        android:onClick="onCountryClick"/>
+
+    <ImageButton
+        android:id="@+id/studymenuverb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/imgstudymenuverb"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center|bottom"
+        android:onClick="onCountryClick"/>
+
+    <ImageButton
+        android:id="@+id/studymenufb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/imgstudymenufb"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"/>
+
+</FrameLayout>

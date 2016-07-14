@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/studymenubg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/imgstudymapbg1" />
+
+
+    <ImageView
+        android:id="@+id/mapname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/imgstudymapname2" />
+
+    <ImageButton
+        android:id="@+id/studymapcoin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="60dp"
+        android:background="#00000000"
+        android:onClick="onCoinClick"
+        android:src="@drawable/imgmapcoin1" />
+
+    <ImageButton
+        android:id="@+id/studymapcoin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="90dp"
+        android:background="#00000000"
+        android:onClick="onCoinClick"
+        android:src="@drawable/imgmapcoin2" />
+
+    <ImageButton
+        android:id="@+id/studymapcoin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="70dp"
+        android:background="#00000000"
+        android:onClick="onCoinClick"
+        android:src="@drawable/imgmapcoin3" />
+
+    <ImageButton
+        android:id="@+id/studymapcoin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="70dp"
+        android:background="#00000000"
+        android:onClick="onCoinClick"
+        android:src="@drawable/imgmapcoin4" />
+
+    <ImageView
+        android:id="@+id/movechawoman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/walkchawoman" />
+
+    <ImageView
+        android:id="@+id/tutostudyvoca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onTutoVocaClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/imgtutostudyvoca"
+        android:visibility="gone" />
+
+</FrameLayout>
